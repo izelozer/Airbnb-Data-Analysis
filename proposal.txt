@@ -1,0 +1,9 @@
+Proposal
+Airbnb is one of the most popular web applications for people to rent their houses for  short-term to satisfy other people’s accommodation needs. The application has created a huge accumulation of data since it is widely used for touristic purposes. We believe that this data can be used to predict future rental rates, prices and help owners to adjust their houses accordingly.
+There are lots of different data types but we believe the most effective and relevant data sets will be about the room types(entire home/apt, private room, shared room etc.), number of accommodates, location of the house and the neighborhood, reviews, number of bedrooms, price, minimum duration for a visit and size of the house.
+We will be using the data from crowded and touristic cities such as Amsterdam, Barcelona, Berlin, Boston, Chicago, Helsinki, London, Los Angeles, Madrid, New York, Paris, Rome, San Francisco, Sydney, Vancouver BC, Vienna, and Washington. We are planning to start with unsupervised learning techniques to create a model.
+Overall satisfaction is dependent on many attributes, our hypothesis is that the most effective factor that changes the satisfaction is the pricing, as price decreases, the satisfaction decreases too.
+ 
+We will be using the data from the following link:
+
+http://tomslee.net/airbnb-data-collection-get-the-data

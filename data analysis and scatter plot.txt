@@ -1,0 +1,10 @@
+Data Analysis and Selecting Features
+
+For this project, we choose the city Bologna because it has just enough samples. More crowded or touristic cities have more null values in the data and have extremely large samples.
+
+We can see that columns have lots of null values, such as borough, overall_satisfaction, and name. In order to eliminate null values, we can delete those columns or we can only delete the null values rows. If we just delete the null rows, this might cause a problem because we would be deleting a lot of sample but we can delete the columns if they are not useful for our case.
+Also some columns are not useful for our case such as ‘room_id’, ‘survey_id’, ‘host_id’, ‘borough’, ‘name’, ‘last_modified’, ‘latitude’, ‘longitude’, ‘location’. Room number and satisfaction should not be related, or the survey id and so on. Location might be important if we were examining different cities but for now we are just looking at Bologna. Our aim is the predict the overall satisfaction so we definately should not delete the column and delete the null rows.
+
+Other than these columns, we can examine other features to understand if they are relevant or not, by creating scatter plots.
+
+We can see that when the minimum staying decreases, satisfaction increases. Even though it is not a clear observation, if we look at the overall_satisfaction 4.5 and 5.0, we see that lower days for minimum staying have more satisfaction rate.
